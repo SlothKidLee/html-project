@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+    <link rel="stylesheet" href="C:\Users\kyleb\OneDrive\Desktop\VSprojects\Resources\CSS\styles_cheatsheet_project.css" type="text/css">
+     <title>
+       CheatSheet Project
+     </title>
+  </head>
+    <body>
+     <h1>Cheatsheet Project</h1>
+      <h2 class="table_title">Table 1(Basic Html Tags)</h2>
+        <div>
+          <table id="table1">
+            <thead>
+                <tr>
+                  <th>Tag</th>
+                  <th>Tag Name</th>
+                  <th>Function</th>
+                  <th>Example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>
+                    <span class="code_tag">&lthtml></span>
+                  </td>
+                  <td>Html Element</td>
+                  <td>All elements in an html sheet are nested inside this tag.</td>
+                  <td class="example">
+                    &lt!DOCTYPE html>
+                      &lthtml> all page contents are nested here such as...
+                        &lthead>
+                          &lt/head>
+                            &ltbody>
+                           &lt/body>
+                      &lt/html>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&lthead></span>
+                  </td>
+                  <td>Head Element</td>
+                  <td>Lists metadata for the page, such as stylesheets links and the document's &lttitle> which is listed on the browser tab.</td>
+                  <td class="example">
+                    &lt!DOCTYPE html>
+                      &lthtml> 
+                       &lthead> ...Stylesheets link and page title goes here...
+                         &lt/head>
+                           &ltbody>
+                        &lt/body>
+                    &lt/html>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltbody></span>
+                  </td>
+                  <td>Body Element</td>
+                  <td>Contains the content or "body" of an html document. Everything shown on the webpage goes here.</td>
+                  <td class="example">
+                    &lt!DOCTYPE html>
+                      &lthtml> 
+                       &lthead> 
+                         &lt/head>
+                           &ltbody> ...webpage contents go here...
+                        &lt/body>
+                    &lt/html>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&lth1>,&lth2>,&lth3>,&lth4>,&lth5>,&lth6></span>
+                  </td>
+                  <td>Heading Elements</td>
+                  <td>All output a heading with a different size, h1 being the largets and h6 being the smallest.</td>
+                  <td class="example">
+                    &lth1>Heading 1&lt/h1> - &lth6>Heading 6&lt/h6>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltp></span>
+                  </td>
+                  <td>Paragraph Element</td>
+                  <td>Contains a block of text.</td>
+                  <td class="example">
+                    ...nested inside the body tag...
+                    &ltbody>
+                      &ltp>
+                        text contents
+                      &lt/p>
+                    &lt/body>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltdiv></span>
+                  </td>
+                  <td>Div Element</td>
+                  <td>Used to group elements/content.</td>
+                  <td class="example">
+                    &ltdiv>
+                      &lth1> Elements group 1 &lt/h1>
+                      &ltp> Text for group 1 &lt/p>
+                    &lt/div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltbr></span>
+                  </td>
+                  <td>Break Element</td>
+                  <td>Used to add a line break between content(extra space).</td>
+                  <td class="example">
+                    &ltdiv>
+                      &lth1> Elements group 1 &lt/h1>
+                      &ltp> Text for group 1 &lt/p>
+                    &lt/div>
+                    &ltbr> ...will add extra space between &ltdiv>'s...
+                    &ltdiv>
+                      &lth1> Elements group 2 &lt/h1>
+                      &ltp> Text for group 2 &lt/p>
+                    &lt/div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltol>, &ltul>, &ltli></span>
+                  </td>
+                  <td>Ordered list, Unordered list, List item</td>
+                  <td>Ordered list is used to make a numbered or ordered list, Unordered list is used to make an unordered list without numbers and instead uses bullets, List item is the items that will be listed in either Ol or Ul.</td>
+                  <td class="example">
+                    &ltul>
+                      &ltli>List Item&lt/li>
+                      &ltli>List Item&lt/li>
+                      &ltli>List Item&lt/li>
+                    &lt/ul>
+                    ...same format for &ltol>...
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltspan></span>
+                  </td>
+                  <td>Span Element</td>
+                  <td>Isolates nested text from other text for styling purposes.</td>
+                  <td class="example">
+                    &ltp> Text inside the span element will show up &ltspan>differently&lt/span> from the rest.&lt/p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltvideo></span>
+                  </td>
+                  <td>Video Element</td>
+                  <td>Embeds a media player for video playback. Utilizes the <span class="attribute">src</span> attribute.</td>
+                  <td class="example">
+                    &ltvideo src ="video.mp4" controls(adds media controls for the video)>
+                    &lt/video>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltimg></span>
+                  </td>
+                  <td>Image Element</td>
+                  <td>Embeds an image and utilizes the <span class="attribute">src</span> attribute.</td>
+                  <td class="example">
+                    &ltimg src="cat-pic.jpeg"> ...does not have closing tags...
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&lta></span>
+                  </td>
+                  <td>Anchor Element</td>
+                  <td>Used to create hyperlinks leading to other webpages or other points on the same page. Utilizes the <span class="attribute">href</span> attribute.</td>
+                  <td class="example">
+                    &lta href="http://www.pagelink.com">&lt/a>
+                    ...can also embed a link into a picture...
+                    &lta href="http://www.pagelink.com">
+                      &ltimg src="cat-pic.jpeg">
+                    &lt/a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag"> &lttitle></span>
+                  </td>
+                  <td>Title Element</td>
+                  <td>Defines the title of the html page which is displayed in the browser bar and the browser tab.</td>
+                  <td class="example">
+                    Nested in the &lthead> element.
+                    &lthead>
+                      &lttitle> Title of webpage &lt/title>
+                    &lt/head>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltem></span>
+                  </td>
+                  <td>Emphasis Element</td>
+                  <td>Italicizes the text nested within.</td>
+                  <td class="example">
+                    &ltp>normal text &ltem>Italicized text&lt/em> normal text&lt/p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <span class="code_tag">&ltstrong></span>
+                  </td>
+                  <td>Strong Element</td>
+                  <td>Emboldens the text nested within.</td>
+                  <td class="example">
+                    &ltp>normal text &ltstrong>Bold text&lt/strong> normal text&lt/p>
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+      <br>
+     <h2 class="table_title">Table 2(Attirbutes)</h2>
+      <div>
+        <table id="table2">
+          <thead>
+            <tr>
+              <th>Attribute</th>
+              <th>Function</th>
+              <th>Example</th>
+            </tr>
+          </thead>
+           <tbody>
+            <tr>
+              <td>
+                <span class="attribute">name</span>
+              </td>
+              <td>Used in the opening tag of an element to change the behavior specificaly of a form element.</td>
+              <td class="example">&ltinput name="element name">
+                    input content
+                  &lt/input>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">id</span>
+              </td>
+              <td>Used in the opening tag to identify an element uniquely.</td>
+              <td class="example">&ltthead id="name of table head">
+                   table head
+                  &lt/thead>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">class</span>
+              </td>
+              <td>Used in the opening tag to identify a group of elements with the same <span class="attribute">class</span> attribute.</td>
+              <td class="example">&lttable class="table1">
+                    &ltthead>
+                      &lttr>
+                        &ltth>heading name&lt/th>
+                        &ltth>heading name&lt/th>
+                        &ltth>heading name&lt/th>
+                      &lt/tr>
+                    &lt/thead>
+                  &lt/table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">alt</span>
+              </td>
+              <td>Used in the opening tag to provide alternate text when the given tag does not work inside the browser.</td>
+              <td class="example">&ltimg src="image.jpeg" alt="text displayed if image fails"></td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">href</span>
+              </td>
+              <td>Used in the opening tag to link a webpage. Stands for Hyper Face Reference.</td>
+              <td class="example">&lta href="http://www.site.com">takes you to this site&lt/a></td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">src</span>
+              </td>
+              <td>Used in the opening tag of an element to link the source for a photo or video.</td>
+              <td class="example">&ltimg src="file/path/computer.html"></td>
+            </tr>
+            <tr>
+              <td>
+                <span class="attribute">target</span>
+              </td>
+              <td>Used in the opening anchor tag to add a target location for the given link.</span></td>
+              <td class="example">&lta href="https:www.google.com" target="_blank>&lt/a> this will open to google in a new tab</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </body>
+</html>
